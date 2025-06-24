@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "TempLite",
+    "description": "extensão para ajudar no registro de issues",
+    "version": "1.0",
+    "icons": {
+    "128": "TempLite.png"
+    },
+    "action":{
+        "default_title": "Click Me",
+        "default_popup":"main.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://jira-la.secext.samsung.net/*",
+                "https://splm.sec.samsung.net/*"
+                ],
+                
+            "css": ["my-styles.css","index.css"],
+            "js": ["content-script.js","index-modal.js"]
+        }
+    ]
+}

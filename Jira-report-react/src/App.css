@@ -1,0 +1,27 @@
+.select-search-input {
+  height: 38px !important;
+}
+
+.select-search-input,.select-search-container {
+  width: 250px;
+}
+
+.select-search-select {
+  top: 38px !important;
+}
+
+.select-search-options {
+  padding-left: 2px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.select-search-input:hover,.form-select:hover  {
+  font-weight: bold
+}
+
+#root > div > div.d-flex.flex-wrap.gap-2.border.rounded.p-3 > div.d-flex.flex-wrap.gap-2 > div > select {
+  width: 140px;
+}

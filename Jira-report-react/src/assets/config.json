@@ -1,0 +1,22 @@
+{
+    "key": "USER_JIRA_TOKEN",
+    "url_jira": "https://jira.yourdomain",
+    "project": {
+        "key": ""
+    },
+    "issuetype": {
+        "name": "Bug"
+    },
+    "versions": [{
+        "name": "Not Applicable"
+      }],
+    "customfield_13551": "",
+    "customfield_13556": {
+        "value": "Always",
+        "id": "15805"
+    },
+    "customfield_14310": { 
+        "value": "Development Test",
+        "id": "16773"
+    }
+}
