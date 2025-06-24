@@ -1,7 +1,3 @@
-
-
-
-
 Este repositório contém o código para compilar uma **Extensão para Web Browsers baseado em Chromium**, com a capacidade de gerar um template padronizado de forma mais eficiente no Jira
 
 
@@ -26,7 +22,7 @@ Este repositório contém o código para compilar uma **Extensão para Web Brows
     git clone 
     cd jira-report
     ```
-2. Entrar na pasta TempLite_react e executar o comando "npm run install"
+2. Entrar na pasta Jira-report-react e executar o comando "npm run install"
     
     ```bash
     cd Jira-report-react
@@ -37,13 +33,13 @@ Este repositório contém o código para compilar uma **Extensão para Web Brows
     
     
 
-4. Adicionar User Token no arquivo config.json localizado na pasta "jira-report\TempLite_react\src\assets"
+4. Adicionar User Token no arquivo config.json localizado na pasta "jira-report\Jira-report-react\src\assets"
 
 5. Executar o comando "npm run build"
     ```bash
     npm run build
     ```
-6. Serão gerados 2 arquivos na pasta "jira-report\TempLite_react\dist\assets"
+6. Serão gerados 2 arquivos na pasta "jira-report\Jira-report-react\dist\assets"
 
 7. Renomear os arquivos gerados .css para index.css e o arquivo .js para index-modal.js
 
